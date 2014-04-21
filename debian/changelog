@@ -1,3 +1,10 @@
+conntrack (1:1.2.1-1+ipv6fix) wheezy; urgency=low
+
+  * patches/ipv6-kernel-dump: sync IPv4 and IPv6 from kernel
+    also see e2c6576 upstream for inspiration
+
+ -- Hans van Kranenburg <hans.van.kranenburg@mendix.com>  Tue, 22 Apr 2014 00:26:36 +0200
+
 conntrack (1:1.2.1-1) unstable; urgency=low
 
   * [ed902b3] Initial upstream branch.

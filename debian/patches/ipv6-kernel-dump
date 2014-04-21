@@ -1,0 +1,14 @@
+--- a/src/read_config_yy.y
++++ b/src/read_config_yy.y
+@@ -1644,9 +1644,9 @@ init_config(char *filename)
+ 	yyparse();
+ 	fclose(fp);
+ 
+-	/* default to IPv4 */
++	/* default to IPv4 and IPv6 */
+ 	if (CONFIG(family) == 0)
+-		CONFIG(family) = AF_INET;
++		CONFIG(family) = AF_UNSPEC;
+ 
+ 	/* set to default is not specified */
+ 	if (strcmp(CONFIG(lockfile), "") == 0)
