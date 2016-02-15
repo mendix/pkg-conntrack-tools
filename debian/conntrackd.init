@@ -39,6 +39,9 @@ case "$1" in
             -C "$CONFIG" \
             $OPTIONS
         log_end_msg $?
+        log_begin_msg "Resyncing conntrackd"
+        $DAEMON -n
+        log_end_msg $?
         ;;
     stop)
         log_begin_msg "Stopping conntrackd"
