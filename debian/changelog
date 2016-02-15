@@ -1,3 +1,9 @@
+conntrack (1:1.2.1-1+mendix1) wheezy; urgency=medium
+
+  * d/conntrackd.init: request resync with other node after start
+
+ -- Pim van den Berg <pim.van.den.berg@mendix.com>  Mon, 15 Feb 2016 16:42:41 +0100
+
 conntrack (1:1.2.1-1+ipv6fix) wheezy; urgency=low
 
   * patches/ipv6-kernel-dump: sync IPv4 and IPv6 from kernel
