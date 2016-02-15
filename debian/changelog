@@ -1,3 +1,9 @@
+conntrack (1:1.4.2-2+mendix1) jessie; urgency=medium
+
+  * d/conntrackd.{service,init}: request resync with other node after start
+
+ -- Pim van den Berg <pim.van.den.berg@mendix.com>  Mon, 15 Feb 2016 16:27:42 +0100
+
 conntrack (1:1.4.2-2+deb8u1) jessie-security; urgency=high
 
   * [d2fe984] d/patches: add CVE-2015-6496.patch (Closes: #796103)
